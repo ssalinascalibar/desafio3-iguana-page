@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: #000000;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+h1{
+    font-weight: 500;
+    font-size: 50px;
+}
+
+h2{
+    font-weight: 300;
+}
+
+p{
+    font-weight: 300;
+    letter-spacing: 0px;
+    display: inline-block;
+}
+
+header img{
+    height: 727px;
+}
+
+/* Principal */
+main{
+    height: 348px;
+}
+
+main p{
+    margin-right: 2%;
+    width: 475px;
+    height: 197px;
+    text-align: left;
+}
+
+main img{
+    margin-left: 2%;
+    width: 399px;
+    height: 237px;
+    display: inline-block;
+}
+
+/* Características */
+section{
+    height: 348px;
+    background-color: #1E1A13;
+    opacity: 0.98;
+}
+
+section h1{
+    font-size: 40px;
+    padding-top: 75px;
+}
+
+.features{
+    width: 20%;
+    padding: 1%;
+    margin-top: 2%;
+    display: inline-block;
+}
+
+.features i{
+    padding: 5%;
+}
+
+
+
+
+
+/* Galeria de fotos */
+.gallery{
+    height: 348px;
+}
+
+.gallery img{
+    width: 316px;
+    height: 202px;
+    margin-top: 73px;
+}
+
+footer{
+    height: 102px;
+    background-color: #1E1A13;
+}
+
+footer p{
+    font-size: 20px;
+    padding-top: 39px;
+}
